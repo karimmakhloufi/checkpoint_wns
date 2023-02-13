@@ -13,7 +13,7 @@
 
 Crées un nouveau projet React Typescript avec create react app
 
-Tu vas consommer une API GraphQL qui fournit des informations sur un pays: https://countries.trevorblades.com/ .
+Tu vas consommer une API GraphQL qui fournit des informations sur un pays: https://countries.nausicaa.wilders.dev/ .
 
 La query countries fournit une liste de codes de pays (FR, BE, CA, ...)
 
