@@ -58,4 +58,4 @@ et qui enregistre cette entrée en BDD
 Crées ensuite 2 query:
 
 - Une qui renvoie la liste de tous les pays avec le code, le nom et l'emoji
-  -Une autre qui prend en paramètre le code du pays et qui renvoie le pays en question
+- Une autre qui prend en paramètre le code du pays et qui renvoie le pays en question
