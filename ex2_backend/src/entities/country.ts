@@ -4,13 +4,17 @@ import { Column, Entity, PrimaryColumn } from "typeorm";
 @ObjectType()
 @Entity()
 class Country {
-  @PrimaryColumn()
+  @PrimaryColumn({ unique: true })
   @Field(() => ID)
   code: string;
 
   @Column()
   @Field()
   name: string;
+
+  @Column()
+  @Field()
+  emoji: string;
 }
 
 export default Country;
