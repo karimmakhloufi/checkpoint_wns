@@ -1,5 +1,7 @@
 # Checkpoint Alternance Dev CDA
 
+Les exercices sont indépendants les uns des autres, tu peux les faire dans l'ordre que tu veux
+
 **Avant de commencer**
 
 - Clone ce projet
