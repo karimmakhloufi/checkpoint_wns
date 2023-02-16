@@ -61,3 +61,63 @@ Crées ensuite 2 query:
 
 - Une qui renvoie la liste de tous les pays avec le code, le nom et l'emoji
 - Une autre qui prend en paramètre le code du pays et qui renvoie le pays en question
+
+## Partie 3: Base de données
+
+Dans cet exercice il s'agira d'abord de modéliser puis de créer la base de données d'un job board.
+
+Un job board est un site internet qui permet aux entreprises de publier des offres d'emploi.
+
+Voici les contraintes de la base de données du job board:
+
+- Un recruteur peut s'enregistrer sur le site
+- Une fois enregistré il peut créer une seule entreprise
+- Il peut ensuite publier des offres au nom de l'entreprise
+
+- Un candidat peut s'enregistrer sur le site
+- Une fois enregistré il peut consulter les offres
+- Il peut ensuite candidater à des offres
+
+- Le candidat peut retrouver toutes les entreprises auxquelles il a candidaté
+- Le recruteur peut retrouver les informations des candidats qui ont postulé à une offre
+
+Un recruteur a les attributs suivants:
+
+- login
+- mot de passe
+
+Un candidat a les attributs suivants:
+
+- login
+- mot de passe
+- nom
+- prénom
+- email
+- numéro de téléphone
+- texte de présentation
+
+Une entreprise a les attributs suivants:
+
+- Nom
+- Description
+
+Une offre a les attributs suivants:
+
+- Titre du poste
+- Descriptif du poste
+- Ville du poste
+
+### 3.1 Modélisation
+
+Crées le MCD MLD et MPD de la base de données
+
+### 3.2 SQL
+
+Crées la base de données avec sqllite et remplis-la avec des données fictives
+
+Ecris ensuite les requêtes SQL permettant d'obtenir les informations suivantes:
+
+- Toutes les offres d'emploi
+- Toutes les offres d'emploi d'une ville (Paris)
+- Les informations de tous candidats qui ont postulé à une offre précise
+- Les informations de tous les candidats qui ont postulé aux offres d'une entreprise
