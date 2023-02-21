@@ -2,6 +2,10 @@
 
 Les exercices sont indépendants les uns des autres, tu peux les faire dans l'ordre que tu veux
 
+**Disclaimer**
+
+Il vaut mieux livrer un exercice incomplet et / ou comportant des bugs plutôt que de ne rien soumettre
+
 **Avant de commencer**
 
 - Clone ce projet
@@ -109,11 +113,11 @@ Une offre a les attributs suivants:
 
 ### 3.1 Modélisation
 
-Crées le MCD MLD et MPD de la base de données
+Modélise le MPD de la base de données, https://www.dbdesigner.net/ te permettra d'exporter la BDD au format SQLite ce qui te sera utile par la suite
 
 ### 3.2 SQL
 
-Crées la base de données avec sqllite et remplis-la avec des données fictives
+Crées la base de données avec SQLite et remplis-la avec des données fictives
 
 Ecris ensuite les requêtes SQL permettant d'obtenir les informations suivantes:
 
