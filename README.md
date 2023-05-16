@@ -17,29 +17,29 @@ Il vaut mieux livrer un exercice incomplet et/ou comportant des bugs plutôt que
 
 ## Partie 1 : Frontend
 
-Crée un nouveau projet React Typescript avec create react app.
+Crée un nouveau projet React Typescript avec Create React App.
 
-Tu vas consommer une API GraphQL qui fournit des informations sur un pays : https://countries.nausicaa.wilders.dev/
+Tu vas utiliser une API GraphQL qui fournit des informations sur un pays : https://countries.nausicaa.wilders.dev/
 
-- La query continents fournit une liste de continents avec un code et un nom (ex : {code:"EU", name:"Europe"})
+- La query `continents` fournit une liste de continents avec un code et un nom (ex : `{code:"EU", name:"Europe"}`)
 
-- La query continent prend un code de continent en paramètre et retourne une liste de pays
+- La query `continent` prend un code de continent en paramètre et retourne une liste de pays
 
-- La query country prend un code de pays en paramètre et retourne le nom, la capitale, la monnaie et le drapeau du pays
+- La query `country` prend un code de pays en paramètre et retourne le nom, la capitale, la monnaie et le drapeau du pays
 
 Pour réaliser ce projet, tu peux si tu le souhaites utiliser https://reactrouter.com/en/main pour la gestion des routes en local ainsi que la biliothèque de composants https://ant.design/
 
 Tu vas devoir développer 3 pages dans ce projet :
 
-- Une page qui affiche la liste des continents dans une grille cliquable
+- Une page qui affiche la liste des liens vers chaque continent
 
 ![continents](continents.png)
 
-- Une page qui affiche la liste des pays cliquables du continent sur lequel on a précédemment cliqué
+- Une page qui affiche, pour un continent donné, la liste des liens vers chaque pays
 
 ![countries](countries.png)
 
-- Une page qui affiche les détails du pays sur lequel on vient de cliquer
+- Une page qui affiche les détails d'un pays donné
 
 ![countryDetails](countryDetails.png)
 
@@ -83,7 +83,7 @@ et qui enregistre cette entrée en BDD.
 
 Crée ensuite 2 queries :
 
-- Une qui renvoie la liste de tous les pays avec le code, le nom et l'emoji
+- Une qui renvoie la liste de tous les pays (avec pour attributs, pour chaque pays, le code, le nom, l'emoji)
 - Une autre qui prend en paramètre le code du pays et qui renvoie le pays en question
 
 Bonus :
