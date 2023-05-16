@@ -32,12 +32,20 @@ Pour réaliser ce projet, tu peux si tu le souhaites utiliser https://reactroute
 Tu vas devoir développer 3 pages dans ce projet:
 
 - Une page qui affiche la liste des continents dans une grille cliquable
+
+![continents](continents.png)
+
 - Une page qui affiche la liste des pays cliquable du continent sur lequel on a précédemment cliqué
+
+![countries](countries.png)
+
 - Une page qui affiche les détails du pays sur lequel on vient de cliquer
+
+![countryDetails](countryDetails.png)
 
 Les pages affichant une liste contiennent un champ de texte permettant de filtrer les éléments
 
-
+![filter](filter.png)
 
 ## Partie 2: Backend
 
