@@ -8,7 +8,7 @@ Il vaut mieux livrer un exercice incomplet et / ou comportant des bugs plutôt q
 
 **Avant de commencer**
 
-- **Fork** et clone le fork de ce projet
+- Crées un nouveau repo et clone ton projet en local
 
 **A chaque fois que tu avances dans une fonctionnalité:**
 
