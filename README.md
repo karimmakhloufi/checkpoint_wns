@@ -1,6 +1,6 @@
 # Checkpoint Alternance Dev CDA
 
-Les exercices sont indépendants les uns des autres, tu peux les faire dans l'ordre que tu veux
+Les exercices sont indépendants les uns des autres
 
 **Disclaimer**
 
@@ -8,7 +8,7 @@ Il vaut mieux livrer un exercice incomplet et / ou comportant des bugs plutôt q
 
 **Avant de commencer**
 
-- Clone ce projet
+- **Fork** et clone le fork de ce projet
 
 **A chaque fois que tu avances dans une fonctionnalité:**
 
