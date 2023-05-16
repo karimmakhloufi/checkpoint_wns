@@ -137,6 +137,8 @@ Modélise le MPD de la base de données, https://www.dbdesigner.net/ te permettr
 
 Crées la base de données avec SQLite et remplis-la avec des données fictives
 
+Pour cela tu peux créer un fichier ex3.sqlite et utiliser l'extension vscode suivante: https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer
+
 Ecris ensuite les requêtes SQL permettant d'obtenir les informations suivantes:
 
 - Toutes les offres d'emploi
