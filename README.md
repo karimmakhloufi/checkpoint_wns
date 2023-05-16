@@ -43,7 +43,9 @@ Tu vas devoir développer 3 pages dans ce projet:
 
 ![countryDetails](countryDetails.png)
 
-Les pages affichant une liste contiennent un champ de texte permettant de filtrer les éléments
+Bonus:
+
+- Les pages affichant une liste contiennent un champ de texte permettant de filtrer les éléments
 
 ![filter](filter.png)
 
@@ -71,7 +73,7 @@ Voici les packages dont tu auras besoin et leur version:
   }
 ```
 
-Crées une mutation qui prend un en paramètre
+Crées une mutation qui prend en paramètre
 
 - un code (FR, BE, AN, ...)
 - un nom (France, Belgique, Andorre, ...)
@@ -83,6 +85,10 @@ Crées ensuite 2 query:
 
 - Une qui renvoie la liste de tous les pays avec le code, le nom et l'emoji
 - Une autre qui prend en paramètre le code du pays et qui renvoie le pays en question
+
+Bonus:
+
+- Ajoute un code continent à la mutation d'ajout de pays et une query qui permet de récupérer tous les pays d'un continent
 
 ## Partie 3: Base de données
 
